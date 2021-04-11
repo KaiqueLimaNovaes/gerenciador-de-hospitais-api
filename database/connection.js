@@ -2,12 +2,17 @@ var knex = require("knex")({
     
     client: "mysql2",
     connection: {
-        //host: "localhost",
-        host: "http://192.168.0.25:3306",
+        /*
+        host: "localhost",
         user: "root",
+        password: "",
+        database: "gerenciador_hospitais",
+        */
+
+        host: "mysqlserver.c5nn6cftxg4v.sa-east-1.rds.amazonaws.com",
+        user: "admin",
         port: "3306",
-        password: "30011995",
-        //database: "gerenciador_hospitais",
+        password: "UrFxf738gW864S9Q",
         database: "gerenciadorDeHospitais",
     },
 });
